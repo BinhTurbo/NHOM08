@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head th:replace="layout :: head(~{::title})">
+        <title>Introduce</title>
+    </head>
+    <body>
+        <header th:replace="layout :: header"></header>
+
+        <!-- {{-- Breadcrumb Section Begin --}} -->
+        <div class="breadcrumb-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="breadcrumb-text">
+                            <a href="/home"><i class="fa fa-home"></i> Trang chủ</a>
+                            <span>Giới thiệu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- {{-- Breadcrumb Section End --}} -->
+        <section class="product-shop spad page-details">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="filter-widget" style="border: 2px solid rgb(0, 149, 255); text-align: center; padding: 10px 3px">
+                            <h4 class="fw-title">Thông tin về VEGETABLESHOP</h4>
+                            <ul>
+                                <li style="list-style: none;">Địa chỉ: Hà Đông - Hà Nội</li>
+                                <li style="list-style: none;">SĐT: +84 11.11.11.111</li>
+                                <li style="list-style: none;">Email: vegetableshop@gmail.com</li>
+                            </ul>
+                            <div class="footer-social">
+                                <a href="#"><i class="fa fa-facebook">&nbsp;&nbsp;&nbsp;</i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="product-pic">
+                                    <img class="product-big-img" src="images/introduce.jpg" alt="">
+                                </div> 
+                            </div>
+                            <div class="col-lg-12" style="margin: 20px 0px">
+                                <div class="contact">
+                                    <div class="fw-title">
+                                        <h3 style="color: black"><b>Giới thiệu</b></h3>
+                                    </div>
+                                    <div class="pd-desc" style="color: black; padding: 15px 0px">
+                                        <h4>Về cửa hàng rau <b>VEGETABLESHOP</b></h4>  
+                                    </div>
+                                    <div class="pd-share">
+                                        <p>Các mặt hàng Rau chất lượng cao mà <b>VEGETABLESHOP</b>  đang cung cấp:</p>
+                                        <p><b>Rau lá:</b> Xà lách, Bông cải xanh, Bắp cải, Rau bina, Bồ công anh, Rau muống, Rau dền, Rau mùi, Măng tây, Cải xoăn, Cải xoăn, Cải xoăn, Cải xoăn, Cải bó xôi...</p>
+                                        <p><b>Rau củ quả:</b> Cà chua, Dưa chuột, Mướp đắng, Cà tím, Bí, Dưa, Nếp, Bắp non, Đậu bắp, Cải thìa, Đậu Hà Lan, Ớt chuông,...</p>
+                                        <p><b>Đậu phụ & Nấm:</b> Nấm Bào Ngư, Nấm Đông Cô, Nấm Mèo, Nấm Mộc Nhai,...</p>
+                                        <p><b>Rau đóng hộp:</b> ...</p>
+                                    
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container">
+                        <div class="benefit-items">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="single-benefit">
+                                        <div class="sb-icon">
+                                            <img src="images/icon-1.png" alt="">
+                                        </div>
+                                        <div class="sb-text">
+                                            <h6>Miễn phí vận chuyển</h6>
+                                            <p>Với tất cả đơn hàng từ 99.000vnđ</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="single-benefit">
+                                        <div class="sb-icon">
+                                            <img src="images/icon-2.png" alt="">
+                                        </div>
+                                        <div class="sb-text">
+                                            <h6>Vận chuyển đúng giờ</h6>
+                                            <p>Nếu không có vấn đề gì</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="single-benefit">
+                                        <div class="sb-icon">
+                                            <img src="images/icon-3.png" alt="">
+                                        </div>
+                                        <div class="sb-text">
+                                            <h6>Thanh toán thuận tiện</h6>
+                                            <p>100% An toàn</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer th:replace="layout :: footer"></footer>
+    </body>
+     <script th:replace="layout::script"></script>
+</html>
